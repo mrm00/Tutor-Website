@@ -1,0 +1,100 @@
+.navbar-default {
+  background: #0066cc;
+  background: black;
+}
+
+/* .fixed {
+  position: fixed;
+  width: inherit;
+} */
+
+html, body {
+  height: 100%;
+  color: white;
+}
+body {
+  background: #001a33;
+}
+
+h2 {
+  margin-top: 5%;
+  font-size: 26px;
+}
+
+hr{
+  margin-right: 10%;
+  margin-left: 10%;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+hr.initial {
+  margin-right: 20%;
+  margin-left: 0;
+  margin-top: 3%;
+}
+
+.fields p {
+  margin: 3% 0;
+  text-indent: 3%;
+}
+
+.container {
+  height: 100%;
+  width: 74%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* .container1 {
+  margin-top: 3%;
+  overflow: visible;
+} */
+
+img {
+  margin-left: 1%;
+  float: right;
+  height: 40%;
+  width: auto;
+}
+
+.p-initial {
+  text-indent: 3%;
+  margin-top: 3%
+}
+
+
+
+/* Media queries */
+/*  iphone and ipad widths reads the width of portrait view even in landscape*/
+/*  iPhone- width stays constant. Landscape mode does not affect width */
+
+@media only screen and (max-width: 450px) {
+  p {
+     font-size: 13px;
+  }
+
+  .fields p {
+    text-indent: 10%;
+  }
+
+  h2 {
+      font-size: 18px;
+  }
+
+  .p-initial {
+    text-indent: 10%;
+  }
+
+}

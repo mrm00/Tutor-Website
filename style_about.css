@@ -1,0 +1,118 @@
+.navbar-default {
+  background: #0066cc;
+  background: black;
+}
+
+/* .fixed {
+  position: fixed;
+  width: inherit;
+} */
+
+html, body {
+  height: 100%;
+  color: white;
+}
+body {
+  background: #001a33;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.review {
+  font-weight: bold;
+  color: gray;
+}
+
+.student {
+  text-align: right;
+}
+
+.p-text {
+  text-indent: 5%;
+}
+
+.container {
+  height: 100%;
+  width: 74%;
+}
+
+/* .container1 {
+  overflow: visible;
+  width: auto;
+  height: 100%;
+} */
+
+hr{
+  margin-right: 20%;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+img:nth-of-type(1) {
+  float: left;
+  margin-right: 2%;
+  height: 30%;
+  width: auto;
+  border:1px solid white;
+}
+
+
+img:nth-of-type(2) {
+  float: right;
+  height: 32%;
+  width: auto;
+  margin-right: 0;
+  margin-left: 1.5%;
+  border:1px solid white;
+  margin-bottom: 1%;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+#icon {
+  font-size: 3rem;
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 450px) {
+  p {
+     font-size: 13px;
+     text-indent: 10%;
+  }
+
+  .p-text {
+    text-indent: 10%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+
+  #pic {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+}
