@@ -97,4 +97,8 @@ img {
     text-indent: 10%;
   }
 
+  .container {
+    width: 100%;
+  }
+
 }
