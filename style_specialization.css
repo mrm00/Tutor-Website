@@ -81,6 +81,10 @@ img {
 /*  iPhone- width stays constant. Landscape mode does not affect width */
 
 @media only screen and (max-width: 450px) {
+
+  html body {
+    width: 100%;
+  }
   p {
      font-size: 13px;
   }
@@ -98,7 +102,7 @@ img {
   }
 
   #scale {
-    width: 100%;
+    width: inherit;
   }
 
 }
